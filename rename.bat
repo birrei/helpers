@@ -1,3 +1,9 @@
-cd files
-REM ~ dir /B
-FOR %%i IN (*) DO REN "%%i" "%%i.jpg"
+@echo off 
+REM mkdir filesamples
+REM cd filesamples 
+
+call datetime.bat
+
+set filedir=C:\Users\birgi\Repositories\helpers\filesamples
+
+call rename_praefix.bat %filedir% "txt" %TSTAMP2%
