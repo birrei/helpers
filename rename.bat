@@ -6,4 +6,5 @@ call datetime.bat
 
 set filedir=C:\Users\birgi\Repositories\helpers\filesamples
 
+REM alle *.txt-Dateinamen im Ordner %filedir% mit [JJJJMMTT_HHMMSS]- Präfix versehen 
 call rename_praefix.bat %filedir% "txt" %TSTAMP2%
