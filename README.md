@@ -3,4 +3,4 @@
 * datetime.bat XXX 
 ## filenames 
 * rename.bat: call rename*.bat scripts
-* rename_praefix.bab: XXX 
+* rename_praefix.bat XXX 
