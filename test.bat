@@ -1,1 +1,0 @@
-call move_files_yearfolder.bat C:\Users\birgi\Downloads\Phonostar C:\Users\birgi\Archivieren\Phonostar
