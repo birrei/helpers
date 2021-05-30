@@ -1,8 +1,10 @@
 # helpers
 ## date and time
-* datetime.bat XXX 
+* datetime.bat: current date with various formats
 ## filenames 
-* rename.bat: call rename*.bat scripts
-* rename_praefix.bat: versieht den Namen jeder Datei im benannten Ordner mit einem definierten Präfix
+* call_rename.bat: call rename*.bat scripts
+* rename_praefix.bat: versieht den Namen jeder Datei im benannten Ordner mit einem definierten Präfix, z.B. Datumsstring (datetime.bat)
 ## move / copy files 
-* move_files_yearfolder.bat: 
+* call_movefiles.bat: call movefile*.bat scripts 
+* move_files_yearfolder.bat: moves all files into directory named current year
+* 
