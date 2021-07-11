@@ -7,4 +7,11 @@
 ## move / copy files 
 * call_movefiles.bat: call movefile*.bat scripts 
 * move_files_yearfolder.bat: moves all files into directory named current year
-* 
+
+* ROBOCOPY Parameter 
+** /COPYALL - alle Dateiinfos kopieren (nur mit Admin-Rechten) 
+** /MOV 
+** /FP - Schlieﬂt die vollst‰ndigen Pfadnamen der Dateien in der Ausgabe ein.
+** /TEE
+
+https://docs.microsoft.com/de-de/windows-server/administration/windows-commands/robocopy

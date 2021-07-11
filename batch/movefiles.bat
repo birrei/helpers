@@ -3,10 +3,10 @@ call datetime.bat
 REM -- Jahr-Ordner muss vorhanden sein
 
 SET SOURCEDIR=%1
-SET TARGETDIR=%2\%JAHR_AKTUELL%
+SET TARGETDIR=%2
 
-REM ~ echo %SOURCEDIR%
-REM ~ echo %TARGETDIR%
+echo %SOURCEDIR%
+echo %TARGETDIR%
 
 ROBOCOPY %SOURCEDIR% %TARGETDIR%  /MOV /FP /TEE
 
